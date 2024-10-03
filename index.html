@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil des Cours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            width: 300px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .card h2 {
+            margin: 0 0 10px;
+            font-size: 20px;
+        }
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .card a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur la plateforme des cours</h1>
+</header>
+
+<div class="container">
+    <!-- Exemples de cours -->
+    <div class="card">
+        <img src="images/cours1.jpg" alt="Image Cours 1">
+        <div class="card-body">
+            <h2>Cours de Programmation en Python</h2>
+            <p>Introduction à la programmation en Python, en abordant les bases, les structures de données, et les bibliothèques courantes.</p>
+            <a href="cours/cours_python.html">Accéder au cours</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/cours2.jpg" alt="Image Cours 2">
+        <div class="card-body">
+            <h2>Cours de Développement Web</h2>
+            <p>Apprenez à créer des sites web dynamiques avec HTML, CSS, JavaScript et PHP.</p>
+            <a href="cours/cours_web.html">Accéder au cours</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/cours3.jpg" alt="Image Cours 3">
+        <div class="card-body">
+            <h2>Cours de Base de Données MySQL</h2>
+            <p>Découvrez les bases de la gestion des bases de données avec MySQL, de la création de tables aux requêtes complexes.</p>
+            <a href="cours/cours_mysql.html">Accéder au cours</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/cours4.jpg" alt="Image Cours 4">
+        <div class="card-body">
+            <h2>Cours d'Algorithmique</h2>
+            <p>Comprenez les concepts fondamentaux de l'algorithmique et apprenez à résoudre des problèmes informatiques complexes.</p>
+            <a href="cours/cours_algo.html">Accéder au cours</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html> 
