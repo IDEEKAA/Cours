@@ -1,0 +1,132 @@
+
+:root {
+  --textStyle: Roboto;
+  --titleStyle: Chivo;
+  --fontSize: 1.1em;
+	--maxWidth: 60rem;
+	--menuWidth: 20rem;
+}
+
+html[data-theme='light'] {
+  --homeBG:#d3dfef;
+
+	--linkColor:#3f428b;
+
+	--btnBG:#40418c;
+
+	--borderColor:#c7d7f0;
+
+  --toolboxBG:#d7e5f9;
+	--toolboxFG:#5a5671;
+	--toolboxActiveBG:#3f418b;
+	--toolboxActiveFG:#ffffff;
+
+  --contentBG:#f4f5fb;
+	--contentFG: #11264c;
+	--contentLightFG: #818da7;
+  
+	--accentDarkBG: #3f428b;
+	--accentDarkFG: #FFFFFF;
+	--accentLightBG: #f0f6ff;
+	--accentLightFG: #3f428b;
+
+  --pBkText: #6e1381;
+  --pBkTextLight: #f3d6f5;
+  --pBkDemo: #7d3b6f;
+  --pBkDemoLight: #ffe0f5;
+  --pBkExpression: #297055;
+  --pBkExpressionLight: #d2eae2;
+  --pBkWarning: #970000;
+  --pBkWarningLight: #FFD7D7;
+  --pBkComplement: #978800;
+  --pBkComplementLight: #FFF9C6;
+
+  --headerBG:#f4f5fb;
+  --headerFG:#000000;
+
+	--footerBG:#f4f5fb;
+	--footerFG:#12264c;
+
+	--schBG:#f4f5fb;
+	--schLightBG:#d7e0ff;
+	--schCurrentBG:#ffef6d;
+	--schFG:#13284e;
+
+	--quizAnswerBG:#e2f8d9;
+	--quizAnswerFG:#295716;
+	--quizWorstFG:#aa1016;
+	--quizWorstBG:#ffe7e7;
+	--quizBadFG:#9f5c00;
+
+	--segmentUndone:#8eb4e6;
+	--segmentDone:#152a50;
+	--segmentActive:#2b629e;
+
+	--inputBG:#ebedf9;
+	--inputBorder:#c8d7ee;
+	--inputFocus:#2a619d;
+
+	--progressFG: #AD364B;
+}
+
+html[data-theme='dark'] {
+  --homeBG:#244e7a;
+
+  --linkColor:#939de1;
+
+	--btnBG:#c5c2f5;
+
+  --borderColor: #3F3F3F;
+
+  --toolboxBG:#3b3540;
+  --toolboxFG:#939de1;
+  --toolboxActiveBG:#423b72;
+  --toolboxActiveFG:#f5f0ff;
+
+  --contentBG:#2c273a;
+  --contentFG: #d9d2e4;
+  --contentLightFG: #e4dbf5;
+
+  --accentDarkBG:#6e79bf;
+  --accentDarkFG:#e9e3f2;
+  --accentLightBG:#3b3540;
+  --accentLightFG:#ffffff;
+
+  --pBkText:#f3d6f5;
+  --pBkTextLight:#6e1481;
+  --pBkDemo:#fee0f5;
+  --pBkDemoLight:#7d3b6f;
+  --pBkExpression:#d2eae2;
+  --pBkExpressionLight:#297055;
+  --pBkWarning:#FFD7D7;
+  --pBkWarningLight:#970000;
+  --pBkComplement:#FFF9C6;
+  --pBkComplementLight:#978800;
+
+  --headerBG:#2c283a;
+  --headerFG:#f1ebf9;
+
+  --footerBG:#2c283a;
+  --footerFG:#f1eaf9;
+
+  --schBG:#2c283a;
+  --schLightBG:#1c0849;
+  --schCurrentBG:#847811;
+  --schFG:#f4f5fb;
+
+  --quizAnswerBG:#293e21;
+  --quizAnswerFG:#3ca610;
+  --quizWorstFG:#ff5d63;
+  --quizWorstBG:#36191a;
+  --quizBadFG:#d38c2a;
+
+  --segmentUndone:#484e7f;
+  --segmentDone:#000000;
+  --segmentActive:#2b629e;
+
+  --inputBG:#27223d;
+  --inputBorder:#655c7f;
+  --inputFocus:#2a619d;
+
+  --progressFG: #FF94A7;
+}
